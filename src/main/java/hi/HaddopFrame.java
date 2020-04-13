@@ -194,7 +194,7 @@ class panel2 extends JPanel{
                                                     .setMainClass("InvertedIndex")
                                                     .setJarFileUris(ImmutableList.of("gs://dataproc-staging-us-west1-873726945575-r8fekrze/JAeRp1/Index12.jar"))
                                                     .setArgs(ImmutableList.of(
-                                                            "gs://dataproc-staging-us-west1-873726945575-r8fekrze/Data/Shake/comed", "gs://dataproc-staging-us-west1-873726945575-r8fekrze/Data/Hugo/OWC")))))
+                                                            "gs://dataproc-staging-us-west1-873726945575-r8fekrze/Data/Shake", "gs://dataproc-staging-us-west1-873726945575-r8fekrze/Data/Hugo/OWC")))))
                             .execute();
 
                     System.out.println("done");
